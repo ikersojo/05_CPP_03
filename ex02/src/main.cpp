@@ -6,7 +6,7 @@
 /*   By: isojo-go <isojo-go@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 00:35:47 by isojo-go          #+#    #+#             */
-/*   Updated: 2023/05/31 19:17:06 by isojo-go         ###   ########.fr       */
+/*   Updated: 2023/05/31 19:25:00 by isojo-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,13 @@ static void	printBlueLine(std::string str)
 
 int main(void)
 {
-	printBlueLine("[ -------- CHECKING SCAVTRAP CLASS -------- ]");
+	printBlueLine("[ -------- CHECKING FRAGTRAP CLASS -------- ]");
 	printBlueLine("Create...");
-	Scavtrap cp0;
-	Scavtrap cp1("iker");
-	Scavtrap cp3(cp1);
-	Scavtrap cp4;
-	Scavtrap cp5 = cp1;
+	Fragtrap cp0;
+	Fragtrap cp1("iker");
+	Fragtrap cp3(cp1);
+	Fragtrap cp4;
+	Fragtrap cp5 = cp1;
 
 	cp4 = cp1;
 
@@ -106,17 +106,17 @@ int main(void)
 	cp1.beRepaired(2);
 	std::cout << cp1 << std::endl;
 
-	printBlueLine("Copied / Asigned Scavtraps un-damaged...");
+	printBlueLine("Copied / Asigned Fragtraps un-damaged...");
 	std::cout << cp3 << std::endl;
 	std::cout << cp4 << std::endl;
 	std::cout << cp5 << std::endl;
 
-	printBlueLine("Copied / Asigned Scavtraps un-damaged...");
-	cp0.guardGate();
-	cp1.guardGate();
-	cp3.guardGate();
-	cp4.guardGate();
-	cp5.guardGate();
+	printBlueLine("Copied / Asigned Fragtraps un-damaged...");
+	cp0.highFivesGuys();
+	cp1.highFivesGuys();
+	cp3.highFivesGuys();
+	cp4.highFivesGuys();
+	cp5.highFivesGuys();
 
 	printBlueLine("Destroy...");
 
