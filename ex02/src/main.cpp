@@ -6,7 +6,7 @@
 /*   By: isojo-go <isojo-go@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 00:35:47 by isojo-go          #+#    #+#             */
-/*   Updated: 2023/05/31 19:25:00 by isojo-go         ###   ########.fr       */
+/*   Updated: 2023/05/31 22:27:04 by isojo-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,7 +111,7 @@ int main(void)
 	std::cout << cp4 << std::endl;
 	std::cout << cp5 << std::endl;
 
-	printBlueLine("Copied / Asigned Fragtraps un-damaged...");
+	printBlueLine("High Five...");
 	cp0.highFivesGuys();
 	cp1.highFivesGuys();
 	cp3.highFivesGuys();
