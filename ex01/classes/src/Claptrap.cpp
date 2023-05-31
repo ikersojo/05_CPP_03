@@ -32,7 +32,7 @@ Claptrap::Claptrap(const std::string name) : _name(name), _hitPoints(10), _energ
 Claptrap::Claptrap(const Claptrap& obj)
 {
 	if (DEBUG == 1)
-		std::cout << "\033[0;33m" << "Copy constructor called"
+		std::cout << "\033[0;33m" << "Claptrap Copy constructor called"
 					<< "\033[0;39m" << std::endl;
 	*this = obj;
 }
@@ -84,6 +84,25 @@ unsigned int	Claptrap::getAttackDamage(void) const
 {
 	return (this->_attackDamage);
 }
+
+/* ************************************************************************** */
+
+void	Claptrap::setHitPoints(unsigned int amount)
+{
+	this->_hitPoints = amount;
+}
+
+void	Claptrap::setEnergyPoints(unsigned int amount)
+{
+	this->_energyPoints = amount;
+}
+
+void	Claptrap::setAttackDamage(unsigned int amount)
+{
+	this->_attackDamage = amount;
+}
+
+/* ************************************************************************** */
 
 void	Claptrap::attack(const std::string& target) // hay que gestionar target???
 {

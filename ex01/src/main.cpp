@@ -20,13 +20,13 @@ static void	printBlueLine(std::string str)
 
 int main(void)
 {
-	printBlueLine("[ -------- CHECKING CLAPTRAP CLASS -------- ]");
+	printBlueLine("[ -------- CHECKING SCAVTRAP CLASS -------- ]");
 	printBlueLine("Create...");
-	Claptrap cp0;
-	Claptrap cp1("iker");
-	Claptrap cp3(cp1);
-	Claptrap cp4;
-	Claptrap cp5 = cp1;
+	Scavtrap cp0;
+	Scavtrap cp1("iker");
+	Scavtrap cp3(cp1);
+	Scavtrap cp4;
+	Scavtrap cp5 = cp1;
 
 	cp4 = cp1;
 
@@ -48,29 +48,29 @@ int main(void)
 
 	printBlueLine("Take damage until death...");
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 	std::cout << cp0 << " --> ";
-	cp0.takeDamage(2);
+	cp0.takeDamage(10);
 
 	printBlueLine("Take damage...");
 	std::cout << cp1 << " --> ";
@@ -106,7 +106,7 @@ int main(void)
 	cp1.beRepaired(2);
 	std::cout << cp1 << std::endl;
 
-	printBlueLine("Copied / Asigned Claptraps un-damaged...");
+	printBlueLine("Copied / Asigned Scavtraps un-damaged...");
 	std::cout << cp3 << std::endl;
 	std::cout << cp4 << std::endl;
 	std::cout << cp5 << std::endl;

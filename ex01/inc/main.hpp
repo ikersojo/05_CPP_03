@@ -16,5 +16,6 @@
 		#define DEBUG 0
 	#endif
 	#include "../classes/inc/Claptrap.hpp"
+	#include "../classes/inc/Scavtrap.hpp"
 	#include <iostream>
 #endif // MAIN_HPP
