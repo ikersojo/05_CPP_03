@@ -6,7 +6,7 @@
 /*   By: isojo-go <isojo-go@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 19:26:17 by isojo-go          #+#    #+#             */
-/*   Updated: 2023/05/31 19:29:56 by isojo-go         ###   ########.fr       */
+/*   Updated: 2023/05/31 19:31:46 by isojo-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ Fragtrap::Fragtrap(void) : Claptrap()
 		std::cout << "\033[0;33m" << "Default Fragtrap constructor called"
 					<< "\033[0;39m" << std::endl;
 	this->setHitPoints(100);
-	this->setEnergyPoints(50);
-	this->setAttackDamage(20);
+	this->setEnergyPoints(100);
+	this->setAttackDamage(30);
 }
 
 Fragtrap::Fragtrap(const std::string name) : Claptrap(name)
@@ -31,8 +31,8 @@ Fragtrap::Fragtrap(const std::string name) : Claptrap(name)
 		std::cout << "\033[0;33m" << "Named Fragtrap constructor called (name = "
 					<< this->_name << ")" << "\033[0;39m" << std::endl;
 	this->setHitPoints(100);
-	this->setEnergyPoints(50);
-	this->setAttackDamage(20);
+	this->setEnergyPoints(100);
+	this->setAttackDamage(30);
 }
 
 Fragtrap::Fragtrap(const Fragtrap& obj) : Claptrap(obj)
