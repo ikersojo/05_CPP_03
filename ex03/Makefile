@@ -6,7 +6,7 @@
 #    By: isojo-go <isojo-go@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/20 19:11:30 by isojo-go          #+#    #+#              #
-#    Updated: 2023/05/30 22:50:10 by isojo-go         ###   ########.fr        #
+#    Updated: 2023/06/01 12:30:24 by isojo-go         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ OBJ		=	$(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
 
 ## Compilation flags:
 CC			=	c++
-CFLAGS		=	-Wall -Wextra -Werror -std=c++98
+CFLAGS		=	-Wall -Wextra -Werror -std=c++98 -pedantic -Wshadow
 RM			=	rm -rf
 DEBUG		=	-DDEBUG=1
 
