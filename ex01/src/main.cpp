@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: isojo-go <isojo-go@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: isojo-go <isojo-go@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 00:35:47 by isojo-go          #+#    #+#             */
-/*   Updated: 2023/05/31 19:17:06 by isojo-go         ###   ########.fr       */
+/*   Updated: 2023/06/08 10:04:13 by isojo-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,7 +111,7 @@ int main(void)
 	std::cout << cp4 << std::endl;
 	std::cout << cp5 << std::endl;
 
-	printBlueLine("Copied / Asigned Scavtraps un-damaged...");
+	printBlueLine("Guard Gate...");
 	cp0.guardGate();
 	cp1.guardGate();
 	cp3.guardGate();

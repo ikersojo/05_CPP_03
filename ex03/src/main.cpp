@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: isojo-go <isojo-go@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: isojo-go <isojo-go@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 00:35:47 by isojo-go          #+#    #+#             */
-/*   Updated: 2023/05/31 22:27:48 by isojo-go         ###   ########.fr       */
+/*   Updated: 2023/06/08 10:12:08 by isojo-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,6 +117,13 @@ int main(void)
 	dt3.highFivesGuys();
 	dt4.highFivesGuys();
 	dt5.highFivesGuys();
+
+	printBlueLine("Guard Gate...");
+	dt0.guardGate();
+	dt1.guardGate();
+	dt3.guardGate();
+	dt4.guardGate();
+	dt5.guardGate();
 
 	printBlueLine("whoAmI...");
 	dt0.whoAmI();
